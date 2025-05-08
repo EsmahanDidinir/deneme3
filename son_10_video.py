@@ -1,5 +1,11 @@
 #1. Adım: Kanalın son 10 videosunun ID’lerini çek
 
+from dotenv import load_dotenv
+import os
+load_dotenv()
+api_key = os.getenv("API_KEY")
+
+
 import requests
 
 API_KEY = "AIzaSyD5ZVaqU5SwssneO3ElPp1yZzo34vXBniw" 
